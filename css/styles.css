@@ -1,0 +1,281 @@
+
+
+html,
+body {
+
+	height: 700px;
+	width: 900px;
+	background-color: #111a28;
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+}
+
+
+.header {
+
+	display: block;
+	height: 25%;
+	width: 100%;
+	padding: 2%;
+	padding-bottom: 0;
+	
+}
+
+.logo {
+	max-height: 33px;
+	max-width: 65px;
+	float: left;
+	margin: ;
+}
+
+ img {
+
+	height: 100%;
+	width: 100%;
+	
+	padding: 0;
+
+}
+
+/*-----LEFT SIDE--*/
+
+/*-----Product--*/
+.product {
+	height: 75%;
+	width: 60%;
+	float: left;
+}
+
+.image {
+	max-height: 159px;
+	max-width: 329px;
+	margin: 0 auto;
+	margin-top: 15%;
+
+
+}
+
+/*-----Product buttons--*/
+
+.image-buttons {
+
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 15%;
+}
+
+.image-buttons {
+	max-width: 100%;
+	max-height: 20%;
+}
+
+.image-buttons__product-nav {
+	height: 100%
+	max-width: 100%;
+  margin: 0;
+  padding-left: 50%;
+  padding-top: 20%;
+  list-style: none;
+  font-size: 0;
+  text-align: center;
+}
+.image-buttons__product-nav li {
+  float: left;
+  font-size: 0;
+  
+}
+.image-buttons__product-nav button {
+  position: relative;
+  width: 9px;
+  height: 9px;
+  margin-right: 9px;
+  padding: 0;
+
+  border-radius: 50px;
+  border: 0;
+  transition: all .1s ease;
+}
+
+
+.image-buttons__product-nav--b1 {
+	 background-color: blue;
+}
+.image-buttons__product-nav--b2 {
+	 background-color:  #ffffff;
+}
+.image-buttons__product-nav--b3 {
+	 background-color:  #ed3333;
+}
+.image-buttons__product-nav--b4 {
+	 background-color: #29e3ea;
+}
+
+.image-buttons__product-nav button:focus {
+
+ width: 16px;
+  height: 16px;
+  outline: none;
+  background-color: #1f273f;
+	padding: 0 auto;
+  border: 2px solid white;
+
+}
+.image-buttons__product-nav button:hover {
+
+  cursor: pointer;
+  background-color: #fff;
+}
+
+
+
+.image-buttons__product-nav button span {
+  visibility: hidden;
+ 
+}
+
+
+/*-----RIGHT SIDE--*/
+.product-information {
+	height: 75%;
+	width: 40%;
+	float: right;
+}
+
+h1 {
+
+width: 155px;
+height: 44px;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+font-size: 24px;
+font-weight: 100;
+line-height: 26px;
+}
+
+p {
+
+width: 172px;
+height: 14px;
+opacity: 0.54;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+font-size: 14px;
+font-weight: 100;
+line-height: 26px;
+
+}
+
+
+/*----STAR RATING----*/
+
+.star-rating{
+	font-size: 0;
+	margin-top: 5%;
+}
+.star-rating__wrap{
+	display: inline-block;
+	font-size: 1rem;
+}
+.star-rating__wrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.star-rating__ico{
+	float: right;
+	padding-left: 2px;
+	cursor: pointer;
+	color: #FFB300;
+}
+.star-rating__ico:last-child{
+	padding-left: 0;
+}
+.star-rating__input{
+	display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+	content: "\f005";
+}
+
+/*----STAR RATING END----*/
+
+form {
+
+	float: left;
+	padding-top: 12%;
+}
+
+
+.form-left,
+.form-right {
+
+
+	width: 69px;
+	height: 32px;
+	margin-bottom: 10%;
+
+}
+
+.value {
+
+	width: 24px;
+height: 11px;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+font-size: 14px;
+font-weight: 100;
+line-height: 18px;
+}
+
+.form-left {
+
+	float: left;
+
+}
+
+.form-right {
+
+	float: right;
+	margin-right: 24%;
+}
+
+.cart {
+	clear: both;
+	min-width: 184px;
+	min-height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	height: 100%;
+	width: 100%;
+}
+
+.b {
+
+color: solid white;
+font-family: "Museo Sans Rounded";
+font-size: 14px;
+font-weight: 100;
+line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
