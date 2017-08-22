@@ -13,7 +13,7 @@
 	
 	<div class="header">
 	
-		<div class="logo"><img  src="images/logo.png" alt="LOGO"></div>
+		<div class="header__logo"><img  src="images/logo.png" alt="LOGO"></div>
 	
 	</div>
 
@@ -25,16 +25,16 @@
 		<div class="image-buttons">
 			<ul class="image-buttons__product-nav">
           		<li>
-            		<button class="image-buttons__product-nav--b1"><span>Slide 1</span></button>
+            		<button class="image-buttons__product-nav--b1"></button>
           		</li>
           		<li>
-            		<button class="image-buttons__product-nav--b2"><span>Slide 2</span></button>
+            		<button class="image-buttons__product-nav--b2"></button>
           		</li>
           		<li>
-           			 <button class="image-buttons__product-nav--b3"><span>Slide 3</span></button>
+           			 <button class="image-buttons__product-nav--b3"></button>
          		 </li>
          		 <li>
-           			 <button class="image-buttons__product-nav--b4"><span>Slide 4</span></button>
+           			 <button class="image-buttons__product-nav--b4"></button>
          		 </li>
         	</ul>
 		</div>
@@ -67,15 +67,26 @@
 
 <!--STAR RATING END-->
 
-		<form   action="" method="POST">
-          	<p class="form-left">
-            <input type="button" class="b"  value="Size">
-          	</p>
-          	<p class="form-right">
-            <input type="button" class="b" value="Qty">
+		<form class="form"   action="" method="POST">
+          	
+           <p>
+           <select class="select" name="Size">
+           <option class="select__item" value="Size">Size</option>
+                <option class="select__item" value="44">44</option>
+                <option class="select__item" value="45">45</option>
+                <option class="select__item" value="46">46</option>
+            </select>
+          	
+          	
+            <select class="select" name="Qty">
+            <option class="select__item" value="Qty">Qty</option>
+                <option class="select__item" value="1">1</option>
+                <option class="select__item" value="2">2</option>
+                <option class="select__item" value="3">3</option>
+            </select>
           	</p>
 			<p class="cart">
-			<input type="submit" class="b" value="Add to cart">
+			<input class="select__item" type="submit" class="b" value="Add to cart">
 			</p>
 
         </form>
